@@ -1,0 +1,61 @@
+/* @font-face {
+    font-family: 'Montserrat';
+    src: url(../Fonts/Montserrat-Regular_d60d904c27aa445d89a0a8e18a1f3fed.ttf);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+:root {
+    ---font: "Ubuntu", sans-serif;
+    ---main-bg: linear-gradient(to right, #140e38, #194089);
+}
+
+.navbar-brand {
+    width: 150px;
+    height: auto;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    color: #fff !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-link::after {
+    content: "";
+    height: 3.5px;
+    width: 50%;
+    display: none;
+    background: #9e48cd;
+    position: relative;
+    left: 50%;
+    margin-top: 4px;
+    transform: translatex(-50%);
+    transition: all 1s ease;
+}
+
+.nav-link:hover::after {
+    display: block;
+}
+
+.navbar-nav {
+    height: 1.8rem;
+}
+
+#navbarNav {
+    height: 100%;
+}
+
+.nav-top {
+    padding: 2em 0;
+}

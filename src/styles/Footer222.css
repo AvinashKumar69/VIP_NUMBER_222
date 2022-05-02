@@ -1,0 +1,26 @@
+footer {
+    background: linear-gradient(to right, #140e38, #194089);
+    color: white;
+    padding: 3em 0;
+
+}
+
+footer h2 a {
+    color: #9e48cd !important;
+}
+
+.ftco-animate span {
+    font-size: 30px
+}
+
+.ftco-animate span:hover {
+    color: #9e48cd;
+}
+
+.foot-r p {
+    font-size: 16px;
+}
+
+.foot-email:hover {
+    color: #9e48cd;
+}
