@@ -25,10 +25,10 @@ const TopBanner = () => {
                     <h2 className='text-5xl text-white font-bold'>
                         <Typewriter
                             options={{
-                                strings: ['CONTACT US'],
+                                strings: ['CONTACT US?', 'FIND THE DETAILS BELOW...'],
                                 autoStart: true,
                                 loop: true,
-                                pauseFor: 5000,
+                                pauseFor: 2000,
                             }}
                         />
                     </h2>
