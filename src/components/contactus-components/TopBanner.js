@@ -1,7 +1,6 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
 import BG3 from '../../assets/bg-3.png';
-import '../../styles/ContactUs.css';
 
 const TopBanner = () => {
     return (
