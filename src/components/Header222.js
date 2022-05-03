@@ -2,8 +2,6 @@ import React from 'react';
 import LOGO from '../assets/logo.png';
 import '../styles/Header222.css';
 
-
-
 const Header222 = () => {
     return (
         <header>
