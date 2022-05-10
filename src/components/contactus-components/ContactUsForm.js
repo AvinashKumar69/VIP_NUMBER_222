@@ -17,7 +17,7 @@ const ContactUsForm = () => {
                                     SUPPORT
                                 </h2>
                                 <h3 className="title-font font-semibold text-orange-600 text-lg">
-                                    <i class="bi bi-geo-alt-fill text-black mr-2"></i>
+                                    <i className="bi bi-geo-alt-fill text-black mr-2"></i>
                                     VIP NUMBER STORE
                                 </h3>
                                 <p className="mt-1">Shop No 23, Old idea point, Main market, Police station Road,
@@ -27,19 +27,19 @@ const ContactUsForm = () => {
                             <div className="lg:w-1/2 px-6 lg:mt-0">
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">CALL US</h2>
                                 <p className="text-indigo-500 leading-relaxed">
-                                    <i class="bi bi-phone-vibrate text-black mr-2"></i>
+                                    <i className="bi bi-phone-vibrate text-black mr-2"></i>
                                     +91 81001 80000 / +91 95300 00007
                                 </p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-1">EMAIL US</h2>
                                 <a className="leading-relaxed">
-                                    <i class="bi bi-envelope text-black mr-2"></i>
+                                    <i className="bi bi-envelope text-black mr-2"></i>
                                     cs@vipnumberstore.in
                                 </a>
                                 <h2 className="title-font font-semibold text-gray-900 text-xl mt-2">FOLLOW US</h2>
                                 <a className="leading-relaxed space-x-2">
-                                    <i class="bi bi-facebook text-black"></i>
-                                    <i class="bi bi-twitter text-black"></i>
-                                    <i class="bi bi-instagram text-black"></i>
+                                    <i className="bi bi-facebook text-black"></i>
+                                    <i className="bi bi-twitter text-black"></i>
+                                    <i className="bi bi-instagram text-black"></i>
                                 </a>
                             </div>
                         </div>

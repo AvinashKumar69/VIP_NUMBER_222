@@ -1,11 +1,15 @@
 import React from 'react';
 import crownIcon from '../../assets/crown-icon.svg';
+import '../../styles/Ribbon.css';
 
 const OfferCard = () => {
     return (
         <div className='flex flex-wrap items-center justify-center'>
 
-            <div className='w-96 h-auto m-5 rounded-lg border-2 border-orange-400 xyzabc2'>
+            <div className='w-96 h-auto m-5 rounded-lg border-2 border-orange-400 xyzabc2 box123'>
+                <div className="ribbon ribbon-top-left">
+                    <span className=''>20% off</span>
+                </div>
                 <div className='h-8 text-white flex flex-row items-center justify-evenly rounded-t-lg'
                     style={{ background: 'linear-gradient(to bottom, #f34500, #f77602)' }}
                 >
@@ -53,7 +57,7 @@ const OfferCard = () => {
                         <button className='border-2 rounded-lg p-1 flex flex-row items-center' type='button'
                             style={{ background: 'linear-gradient(to bottom, #f34500, #f77602)' }}
                         >
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-cart3 h-5 w-5" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-cart3 h-5 w-5" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                             </svg>
                             <span className='text-xl'>0</span>
@@ -68,7 +72,10 @@ const OfferCard = () => {
                 </div>
             </div>
 
-            <div className='w-96 h-auto m-5 rounded-lg border-2 border-orange-400 xyzabc2'>
+            <div className='w-96 h-auto m-5 rounded-lg border-2 border-orange-400 xyzabc2 box123'>
+                <div className="ribbon ribbon-top-left">
+                    <span className=''>20% off</span>
+                </div>
                 <div className='h-8 text-white flex flex-row items-center justify-evenly rounded-t-lg'
                     style={{ background: 'linear-gradient(to bottom, #f34500, #f77602)' }}
                 >
@@ -116,7 +123,7 @@ const OfferCard = () => {
                         <button className='border-2 rounded-lg p-1 flex flex-row items-center' type='button'
                             style={{ background: 'linear-gradient(to bottom, #f34500, #f77602)' }}
                         >
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-cart3 h-5 w-5" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-cart3 h-5 w-5" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                             </svg>
                             <span className='text-xl'>0</span>
@@ -131,7 +138,10 @@ const OfferCard = () => {
                 </div>
             </div>
 
-            <div className='w-96 h-auto m-5 rounded-lg border-2 border-orange-400 xyzabc2'>
+            <div className='w-96 h-auto m-5 rounded-lg border-2 border-orange-400 xyzabc2 box123'>
+                <div className="ribbon ribbon-top-left">
+                    <span className=''>20% off</span>
+                </div>
                 <div className='h-8 text-white flex flex-row items-center justify-evenly rounded-t-lg'
                     style={{ background: 'linear-gradient(to bottom, #f34500, #f77602)' }}
                 >
@@ -179,7 +189,7 @@ const OfferCard = () => {
                         <button className='border-2 rounded-lg p-1 flex flex-row items-center' type='button'
                             style={{ background: 'linear-gradient(to bottom, #f34500, #f77602)' }}
                         >
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-cart3 h-5 w-5" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-cart3 h-5 w-5" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                             </svg>
                             <span className='text-xl'>0</span>
@@ -194,7 +204,10 @@ const OfferCard = () => {
                 </div>
             </div>
 
-            <div className='w-96 h-auto m-5 rounded-lg border-2 border-orange-400 xyzabc2'>
+            <div className='w-96 h-auto m-5 rounded-lg border-2 border-orange-400 xyzabc2 box123'>
+                <div className="ribbon ribbon-top-left">
+                    <span className=''>20% off</span>
+                </div>
                 <div className='h-8 text-white flex flex-row items-center justify-evenly rounded-t-lg'
                     style={{ background: 'linear-gradient(to bottom, #f34500, #f77602)' }}
                 >
@@ -242,7 +255,7 @@ const OfferCard = () => {
                         <button className='border-2 rounded-lg p-1 flex flex-row items-center' type='button'
                             style={{ background: 'linear-gradient(to bottom, #f34500, #f77602)' }}
                         >
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-cart3 h-5 w-5" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-cart3 h-5 w-5" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                             </svg>
                             <span className='text-xl'>0</span>
@@ -257,7 +270,10 @@ const OfferCard = () => {
                 </div>
             </div>
 
-            <div className='w-96 h-auto m-5 rounded-lg border-2 border-orange-400 xyzabc2'>
+            <div className='w-96 h-auto m-5 rounded-lg border-2 border-orange-400 xyzabc2 box123'>
+                <div className="ribbon ribbon-top-left">
+                    <span className=''>20% off</span>
+                </div>
                 <div className='h-8 text-white flex flex-row items-center justify-evenly rounded-t-lg'
                     style={{ background: 'linear-gradient(to bottom, #f34500, #f77602)' }}
                 >
@@ -305,7 +321,7 @@ const OfferCard = () => {
                         <button className='border-2 rounded-lg p-1 flex flex-row items-center' type='button'
                             style={{ background: 'linear-gradient(to bottom, #f34500, #f77602)' }}
                         >
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-cart3 h-5 w-5" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-cart3 h-5 w-5" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                             </svg>
                             <span className='text-xl'>0</span>
@@ -320,7 +336,10 @@ const OfferCard = () => {
                 </div>
             </div>
 
-            <div className='w-96 h-auto m-5 rounded-lg border-2 border-orange-400 xyzabc2'>
+            <div className='w-96 h-auto m-5 rounded-lg border-2 border-orange-400 xyzabc2 box123'>
+                <div className="ribbon ribbon-top-left">
+                    <span className=''>20% off</span>
+                </div>
                 <div className='h-8 text-white flex flex-row items-center justify-evenly rounded-t-lg'
                     style={{ background: 'linear-gradient(to bottom, #f34500, #f77602)' }}
                 >
@@ -368,7 +387,7 @@ const OfferCard = () => {
                         <button className='border-2 rounded-lg p-1 flex flex-row items-center' type='button'
                             style={{ background: 'linear-gradient(to bottom, #f34500, #f77602)' }}
                         >
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-cart3 h-5 w-5" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-cart3 h-5 w-5" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                             </svg>
                             <span className='text-xl'>0</span>

@@ -1,7 +1,6 @@
 import React from 'react';
-import discountIMG from '../../assets/discount-img.svg';
-import discountIMG1 from '../../assets/discount-img-2.svg';
 import AnimatedText from 'react-animated-text-content';
+import discountIMG from '../../assets/discount-img.svg';
 
 
 const OfferBanner = () => {
@@ -33,7 +32,7 @@ const OfferBanner = () => {
                         threshold={0.1}
                         rootMargin="20%"
                     >
-                        Hurry Up !!Take advantange of this offer. Just click on  Addcart button & grab this deal now.
+                        Hurry Up!! Take advantange of this offer. Just click on  Addcart button & grab this deal now.
                     </AnimatedText>
 
                     <AnimatedText
