@@ -167,7 +167,10 @@ body {
     position: relative;
     /* position: absolute; */
     display: inline-block;
-    margin: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
     text-align: center;
 }
 
@@ -176,7 +179,8 @@ body {
     padding: 0.5em 1em;
     min-width: 20em;
     line-height: 1.2em;
-    background: #FFD72A;
+    /* background: #FFD72A; */
+    background: linear-gradient(to right, #e67548, #f77602);
     position: relative;
 }
 

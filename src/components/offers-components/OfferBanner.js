@@ -12,8 +12,8 @@ const OfferBanner = () => {
         >
 
             <div className='text-white flex flex-row items-center justify-center mx-auto'>
-                <div className='flex flex-col shadow-2xl rounded-lg'>
-                {/* <h1 class="ribbon2222">Just a Rounded Ribbon</h1> */}
+                <div className='flex flex-col'>
+                    {/* <h1 class="ribbon2222">Just a Rounded Ribbon</h1> */}
                     <h1 className='text-2xl text-orange-600 uppercase'>
                         Today's Offer
                     </h1>

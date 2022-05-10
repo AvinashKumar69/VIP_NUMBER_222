@@ -6,6 +6,10 @@ const OfferCard = () => {
     return (
         <div className='flex flex-wrap items-center justify-center'>
 
+            {/* <p className="ribbon1111">
+                <span className="text1111"><strong className="bold1111">Special Offer:</strong> Recieve bonus rewards points for signing up</span>
+            </p> */}
+
             <div className='w-96 h-auto m-5 rounded-lg border-2 border-orange-400 xyzabc2 box123'>
                 <div className="ribbon ribbon-top-left">
                     <span className=''>20% off</span>
