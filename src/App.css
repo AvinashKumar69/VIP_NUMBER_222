@@ -1,0 +1,11 @@
+.xyzabc2 {
+    box-shadow: 0 14px 24px rgb(0 0 0 / 20%);
+    z-index: 399;
+}
+
+.xyzabc2:hover {
+    box-shadow: 0 14px 24px rgb(0 0 0 / 20%);
+    z-index: 400;
+    transform: scale(1.1);
+    transition: all .25s ease-in-out;
+}
