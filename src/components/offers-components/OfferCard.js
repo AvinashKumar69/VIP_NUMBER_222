@@ -20,7 +20,7 @@ const OfferCard = () => {
                 </div>
 
                 <div className='h-16 flex items-center justify-center bg-white'>
-                    <p className='text-3xl font-semibold text-orange-600'>
+                    <p className='text-3xl font-bold text-orange-600'>
                         98887-88887
                     </p>
                 </div>
@@ -86,7 +86,7 @@ const OfferCard = () => {
                 </div>
 
                 <div className='h-16 flex items-center justify-center bg-white'>
-                    <p className='text-3xl font-semibold text-orange-600'>
+                    <p className='text-3xl font-bold text-orange-600'>
                         98887-88887
                     </p>
                 </div>
@@ -152,7 +152,7 @@ const OfferCard = () => {
                 </div>
 
                 <div className='h-16 flex items-center justify-center bg-white'>
-                    <p className='text-3xl font-semibold text-orange-600'>
+                    <p className='text-3xl font-bold text-orange-600'>
                         98887-88887
                     </p>
                 </div>
@@ -218,7 +218,7 @@ const OfferCard = () => {
                 </div>
 
                 <div className='h-16 flex items-center justify-center bg-white'>
-                    <p className='text-3xl font-semibold text-orange-600'>
+                    <p className='text-3xl font-bold text-orange-600'>
                         98887-88887
                     </p>
                 </div>
@@ -284,7 +284,7 @@ const OfferCard = () => {
                 </div>
 
                 <div className='h-16 flex items-center justify-center bg-white'>
-                    <p className='text-3xl font-semibold text-orange-600'>
+                    <p className='text-3xl font-bold text-orange-600'>
                         98887-88887
                     </p>
                 </div>
@@ -350,7 +350,7 @@ const OfferCard = () => {
                 </div>
 
                 <div className='h-16 flex items-center justify-center bg-white'>
-                    <p className='text-3xl font-semibold text-orange-600'>
+                    <p className='text-3xl font-bold text-orange-600'>
                         98887-88887
                     </p>
                 </div>
