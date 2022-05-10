@@ -1,6 +1,7 @@
 import React from 'react';
 import AnimatedText from 'react-animated-text-content';
 import discountIMG from '../../assets/discount-img.svg';
+import IMG1 from '../../assets/img1.png';
 
 
 const OfferBanner = () => {
@@ -113,7 +114,7 @@ const OfferBanner = () => {
                 </div>
 
                 <div className=''>
-                    <img className='object-cover h-80' src={discountIMG} />
+                    <img className='object-cover h-80' src={IMG1} />
                 </div>
             </div>
 
