@@ -5,7 +5,7 @@ import BG3 from '../../assets/bg-3.png';
 const TopBanner = () => {
     return (
         <>
-            <div className='flex flex-row items-center justify-between w-full h-96 px-20'
+            <div className='flex flex-row items-center justify-between w-full h-96 px-20 rounded-b-3xl'
                 style={{ background: 'linear-gradient(to right, #140e38, #194089)' }}
             >
 

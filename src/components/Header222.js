@@ -31,6 +31,9 @@ const Header222 = () => {
                                 <a className="nav-link" href="#">Gallery</a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link" href="/offerpage">Offers</a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link" href="/contactus">Contact us</a>
                             </li>
                             <li className="nav-item">
