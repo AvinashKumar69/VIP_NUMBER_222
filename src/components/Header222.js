@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import LOGO from '../assets/logo.png';
 import '../styles/Header222.css';
 
@@ -16,7 +17,7 @@ const Header222 = () => {
                     <div className="collapse navbar-collapse " id="navbarNav">
                         <ul className="navbar-nav ms-auto" data-aos="fade-right">
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">Home</a>
+                                <Link className="nav-link" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Vip Numbers</a>
@@ -31,10 +32,10 @@ const Header222 = () => {
                                 <a className="nav-link" href="#">Gallery</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/offerpage">Offers</a>
+                                <Link className="nav-link" to="/offerpage">Offers</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/contactus">Contact us</a>
+                                <Link className="nav-link" to="/contactus">Contact us</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#"><i className="fa-solid fa-user"></i></a>
