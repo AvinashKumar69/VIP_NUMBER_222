@@ -1,8 +1,6 @@
 import React from 'react';
 import AnimatedText from 'react-animated-text-content';
-import discountIMG from '../../assets/discount-img.svg';
 import IMG1 from '../../assets/img1.png';
-import '../../styles/Ribbon.css';
 
 
 const OfferBanner = () => {
@@ -13,7 +11,6 @@ const OfferBanner = () => {
 
             <div className='text-white flex flex-row items-center justify-center mx-auto'>
                 <div className='flex flex-col'>
-                    {/* <h1 class="ribbon2222">Just a Rounded Ribbon</h1> */}
                     <h1 className='text-2xl text-orange-600 uppercase'>
                         Today's Offer
                     </h1>
