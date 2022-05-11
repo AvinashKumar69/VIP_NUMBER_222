@@ -5,7 +5,7 @@ import IMG1 from '../../assets/img1.png';
 
 const OfferBanner = () => {
     return (
-        <div className='h-96 flex flex-row items-center rounded-b-3xl'
+        <div className='h-96 w-screen flex flex-row items-center rounded-b-3xl'
             style={{ background: 'linear-gradient(to right, #140e38, #194089)' }}
         >
 
