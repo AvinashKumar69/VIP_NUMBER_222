@@ -5,17 +5,18 @@ import IMG1 from '../../assets/img1.png';
 
 const OfferBanner = () => {
     return (
-        <div className='h-96 w-screen flex flex-row items-center rounded-b-3xl'
-            style={{ background: 'linear-gradient(to right, #140e38, #194089)' }}
+        <div className='h-96 w-full flex flex-row items-center rounded-b-3xl'
+            // style={{ background: 'linear-gradient(to right, #140e38, #194089)' }}
+            style={{ background: 'linear-gradient(to top, #f34500, #f77602)' }}
         >
 
             <div className='text-white flex flex-row items-center justify-center mx-auto'>
                 <div className='flex flex-col'>
-                    <h1 className='text-2xl text-orange-600 uppercase'>
+                    <h1 className='text-3xl text-gray-300 font-black uppercase mb-1'>
                         Today's Offer
                     </h1>
 
-                    <AnimatedText
+                    {/* <AnimatedText
                         type="words" // animate words or chars
                         animation={{
                             x: '200px',
@@ -33,9 +34,9 @@ const OfferBanner = () => {
                         rootMargin="20%"
                     >
                         Hurry Up!! Take advantange of this offer. Just click on  Addcart button & grab this deal now.
-                    </AnimatedText>
+                    </AnimatedText> */}
 
-                    <AnimatedText
+                    {/* <AnimatedText
                         type="words" // animate words or chars
                         animation={{
                             x: '200px',
@@ -53,19 +54,19 @@ const OfferBanner = () => {
                         rootMargin="20%"
                     >
                         This is best time to purchase vip mobile number for you!
-                    </AnimatedText>
+                    </AnimatedText> */}
 
-                    {/* <p className='text-xl mb-5'>
+                    <p className='text-xl font-medium mb-5'>
                         Hurry Up !!Take advantange of this offer. Just click on  Addcart button & grab this deal now.
                         <br />
                         This is best time to purchase vip mobile number for you!
-                    </p> */}
+                    </p>
 
-                    <h1 className='text-2xl text-orange-600 uppercase'>
+                    <h1 className='text-3xl text-gray-300 font-black uppercase mb-1'>
                         Buy your choice number Immediately
                     </h1>
 
-                    <AnimatedText
+                    {/* <AnimatedText
                         type="words" // animate words or chars
                         animation={{
                             x: '200px',
@@ -83,9 +84,9 @@ const OfferBanner = () => {
                         rootMargin="20%"
                     >
                         Because thousands of peoples are search for their Desired Fancy Number every day.
-                    </AnimatedText>
+                    </AnimatedText> */}
 
-                    <AnimatedText
+                    {/* <AnimatedText
                         type="words" // animate words or chars
                         animation={{
                             x: '200px',
@@ -103,13 +104,13 @@ const OfferBanner = () => {
                         rootMargin="20%"
                     >
                         So if any other person booked your Choice Number then you can't book your number.
-                    </AnimatedText>
+                    </AnimatedText> */}
 
-                    {/* <p className='text-xl'>
+                    <p className='text-xl font-medium'>
                         Because thousands of peoples are search for their Desired Fancy Number every day.
                         <br />
                         So if any other person booked your Choice Number then you can't book your number.
-                    </p> */}
+                    </p>
                 </div>
 
                 <div className=''>

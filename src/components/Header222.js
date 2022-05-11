@@ -7,7 +7,8 @@ const Header222 = () => {
     return (
         <header>
             <nav className="navbar navbar-expand-lg"
-                style={{ background: 'linear-gradient(to right, #140e38, #194089)' }}
+                // style={{ background: 'linear-gradient(to right, #140e38, #194089)' }}
+                style={{ background: 'linear-gradient(to bottom, #f34500, #f77602)' }}
             >
                 <div className="container-lg container-fluid" data-aos="fade-right">
                     <a className="navbar-brand" href="/"><div><img src={LOGO} /></div></a>
