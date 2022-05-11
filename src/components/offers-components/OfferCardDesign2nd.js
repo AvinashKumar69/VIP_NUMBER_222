@@ -7,7 +7,7 @@ const OfferCardDesign2nd = () => {
     return (
         <div className='flex flex-wrap items-center justify-evenly overflow-hidden'>
 
-            <div className='w-96 h-auto m-5 rounded-3xl border-2 border-orange-400 xyzabc2 box123'>
+            <div className='w-96 h-auto m-3 rounded-3xl border-2 border-orange-400 xyzabc2 box123'>
                 <div className="ribbon ribbon-top-left">
                     <span className=''>Ribbon</span>
                 </div>
@@ -77,7 +77,7 @@ const OfferCardDesign2nd = () => {
                 </div>
             </div>
 
-            <div className='w-96 h-auto m-5 rounded-3xl border-2 border-orange-400 xyzabc2 box123'>
+            <div className='w-96 h-auto m-3 rounded-3xl border-2 border-orange-400 xyzabc2 box123'>
                 <div className="ribbon ribbon-top-left">
                     <span className=''>Ribbon</span>
                 </div>
@@ -147,7 +147,7 @@ const OfferCardDesign2nd = () => {
                 </div>
             </div>
 
-            <div className='w-96 h-auto m-5 rounded-3xl border-2 border-orange-400 xyzabc2 box123'>
+            <div className='w-96 h-auto m-3 rounded-3xl border-2 border-orange-400 xyzabc2 box123'>
                 <div className="ribbon ribbon-top-left">
                     <span className=''>Ribbon</span>
                 </div>
@@ -217,7 +217,7 @@ const OfferCardDesign2nd = () => {
                 </div>
             </div>
 
-            <div className='w-96 h-auto m-5 rounded-3xl border-2 border-orange-400 xyzabc2 box123'>
+            <div className='w-96 h-auto m-3 rounded-3xl border-2 border-orange-400 xyzabc2 box123'>
                 <div className="ribbon ribbon-top-left">
                     <span className=''>Ribbon</span>
                 </div>
@@ -287,7 +287,7 @@ const OfferCardDesign2nd = () => {
                 </div>
             </div>
 
-            <div className='w-96 h-auto m-5 rounded-3xl border-2 border-orange-400 xyzabc2 box123'>
+            <div className='w-96 h-auto m-3 rounded-3xl border-2 border-orange-400 xyzabc2 box123'>
                 <div className="ribbon ribbon-top-left">
                     <span className=''>Ribbon</span>
                 </div>
@@ -357,7 +357,7 @@ const OfferCardDesign2nd = () => {
                 </div>
             </div>
 
-            <div className='w-96 h-auto m-5 rounded-3xl border-2 border-orange-400 xyzabc2 box123'>
+            <div className='w-96 h-auto m-3 rounded-3xl border-2 border-orange-400 xyzabc2 box123'>
                 <div className="ribbon ribbon-top-left">
                     <span className=''>Ribbon</span>
                 </div>
